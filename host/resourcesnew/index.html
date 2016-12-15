@@ -124,11 +124,13 @@
 	  <!-- Navigator Bar -->
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
+          <!--
           <li ng-class="{active:index.currentPage == 'dashboardPage'}">
             <a href="dashboardPage" ng-click="index.currentPage = 'dashboardPage'" class="fa fa-dashboard">
               Dashboard
             </a>
           </li>
+          -->
           <li ng-class="{active:index.currentPage == 'printersPage'}">
             <a href="printersPage" ng-click="index.currentPage = 'printersPage'" class="fa fa-print" ng-show='visibleCards.indexOf("printers") > -1'>
               Printers
@@ -149,11 +151,13 @@
               Users
             </a>          
           </li>
+          <!--
           <li ng-class="{active:index.currentPage == 'settingsPage'}">
             <a href="./settingsPage" ng-click="index.currentPage = 'settingsPage'" class="fa fa-gears" ng-show='visibleCards.indexOf("settings") > -1'>
               Settings
             </a>          
           </li>
+          -->
         </ul>
       </div>          
     </div>
