@@ -116,7 +116,7 @@
     	        controllerAs: 'usersController'
     	    })
     	    $routeProvider.otherwise({
-    	    	redirectTo: '/dashboardPage'
+    	    	redirectTo: '/printJobsPage'
     	    });
     	    
     	    $locationProvider.html5Mode({enabled: true, requireBase: true, rewriteLinks: true});
@@ -179,8 +179,8 @@
 				$scope.releaseTagName = data;
 			});
 
-	        this.currentPage = 'dashboard';
-	        
+	        this.currentPage = 'printJobs';
+
     	})
     	
 	    bootcards.init( {

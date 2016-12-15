@@ -146,16 +146,16 @@
               Printables
             </a>          
           </li>
+          <!--
           <li ng-class="{active:index.currentPage == 'usersPage'}">
             <a href="./usersPage" ng-click="index.currentPage = 'usersPage'" class="fa fa-users" ng-show='visibleCards.indexOf("users") > -1'>
               Users
-            </a>          
+            </a>
           </li>
-          <!--
           <li ng-class="{active:index.currentPage == 'settingsPage'}">
             <a href="./settingsPage" ng-click="index.currentPage = 'settingsPage'" class="fa fa-gears" ng-show='visibleCards.indexOf("settings") > -1'>
               Settings
-            </a>          
+            </a>
           </li>
           -->
         </ul>
@@ -167,12 +167,14 @@
   <!-- slide in menu (mobile only) -->
   <nav id="offCanvasMenu" class="navmenu offcanvas offcanvas-left">
     <ul class="nav">
+      <!--
       <li ng-class="{active:index.currentPage == 'dashboardPage'}">
         <a href="./dashboardPage" ng-click="index.currentPage = 'dashboardPage'">
           <i class="fa fa-lg fa-dashboard"></i>
           Dashboard
         </a>          
       </li>
+      -->
       <li ng-class="{active:index.currentPage == 'printersPage'}">
         <a href="./printersPage" ng-click="index.currentPage = 'printersPage'" ng-show='visibleCards.indexOf("printers") > -1'>
           <i class="fa fa-lg fa-print"></i>
@@ -191,6 +193,7 @@
           Printables
         </a>          
       </li>
+      <!--
       <li ng-class="{active:index.currentPage == 'usersPage'}">
         <a href="./usersPage" ng-click="index.currentPage = 'usersPage'" ng-show='visibleCards.indexOf("users") > -1'>
           <i class="fa fa-lg fa-users"></i>
@@ -203,6 +206,7 @@
           Settings
         </a>          
       </li>
+      -->
     </ul>
 
     <div style="margin-top:20px; padding-left: 20px; font-size: 12px; color: #777">v0.114</div>
